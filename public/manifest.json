@@ -1,0 +1,12 @@
+{
+    "name": "vWeather",
+    "description": "Weather forecast app",
+    "start_url": "/",
+    "lang": "ru-RU",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "favicon.ico"
+      }
+    ]
+  }

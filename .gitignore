@@ -1,0 +1,6 @@
+node_modules
+.idea
+.fleet
+.vscode
+build
+yarn-error.log
