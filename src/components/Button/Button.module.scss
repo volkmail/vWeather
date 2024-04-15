@@ -1,0 +1,15 @@
+.button {
+    background-color: #FFFFFF;  
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 5px 25px -3px #B4B4B440;
+    padding: 5px 20px;
+
+    &:hover{
+        background-color: #4793FF;
+    }
+}
+
+.button.clicked {
+    background-color: #4793FF;
+}

@@ -2,6 +2,7 @@ const path = require('path');
 
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const { DefinePlugin } = require('webpack');
 
 const ROOT_DIR = path.resolve(__dirname, '../');
 console.log(ROOT_DIR);
@@ -33,6 +34,9 @@ module.exports = {
     new HTMLWebpackPlugin({
       template: `${ROOT_DIR}/public/index.html`,
       favicon: `${ROOT_DIR}/public/favicon.ico`,
+    }),
+    new DefinePlugin({
+      _API_KEY_: '83fe5a5d279847d685553721232809',
     }),
   ],
   module: {

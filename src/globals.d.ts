@@ -11,3 +11,7 @@ declare module '*.jpg' {
   const value: any;
   export default value;
 }
+
+// Variables
+
+declare const _API_KEY_: string;
